@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria | FPE</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+
+<body>
+
+   <div class="modal" id="modal">
+        <div class="modal__content">
+           <img src="" alt="" class="modal__img" id="modal__img">
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+   </div>
+
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo"><a href="index.html">Fundación Pilares de la Equidad</a></h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <div class="main-header__contactInfo__phone">
+                    <span class="icon-phone">809-332-2129</span>
+                </div>
+                <div class="main-header__contactInfo__address">
+                    <span class="icon-map">Calle Penetración No. 36, Santo Domingo Este</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li><a href="/" class="menu__link">Inicio</a></li>
+                <li><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+                <li><a href="galeria.html" class="menu__link menu__link--select">Galeria</a></li>
+                <li><a href="quieresayudar.html" class="menu__link">Quieres Ayudar ?</a>
+                </li>
+                <li><a href="contacto.html" class="menu__link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="group gallery">
+            <h2 class="group__title">Nuestra Galería</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/galeria/galeria-1.jpg" alt=""class="gallery__img gallery__img--big">
+                    <img src="img/galeria/galeria-2.jpg" alt=""class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/galeria-3.jpg" alt=""class="gallery__img gallery__img--small">
+                    <img src="img/galeria/galeria-4.jpg" alt=""class="gallery__img gallery__img--big">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/galeria-5.jpg" alt=""class="gallery__img gallery__img--big">
+                    <img src="img/galeria/galeria-6.jpg" alt=""class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/galeria-7.jpg" alt=""class="gallery__img gallery__img--small">
+                    <img src="img/galeria/galeria-8.jpg" alt=""class="gallery__img gallery__img--big">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+            <div class="container container--flex">
+                <div class="column column--50">
+                    <h2 class="column__title">Contactanos</h2>
+                    <p class="column__txt"><span class="icon-map">Calle Penetración No. 36, Santo Domingo Este</span></p>
+                    <p class="column__txt"><span class="icon-phone">809-332-2129</span></p>
+                    <p class="column__txt"><span class="icon-mail"></span>pilares.dela.equidad@gmail.com</p>
+                </div>
+                <div class="column column--50">
+                    <h2 class="column__title">Siguenos en nuestras redes</h2>
+                    <p class="column__txt"><a href="https://www.facebook.com/profile.php?id=100010071400081" class="icon-facebook">Facebook</a></p>
+                    <p class="column__txt"><a href="" class="icon-youtube">Siguenos en youtube</a></p>
+                    <p class="column__txt"><a href="" class="icon-instagram">Siguenos en instagram</a></p>
+                </div>
+            </div>
+            <p class="copy">© 2019 Fundación Pilares de la Equidad | Todos los derechos reservados.</p>
+        </footer>
+
+        <script src="js/menu.js"></script>
+        <script src="js/modal.js"></script>
+</body>
+</html>
