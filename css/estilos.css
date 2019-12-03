@@ -19,7 +19,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    min-width: 320px;
+    min-width: 405px;
 }
 
 /*------------------Estilos base------------------*/
@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 /*------------------Header------------------*/
 .main-header {
     width: 100%;
+    text-align: center
 }
 
 .logo {
@@ -66,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: #5F9535;
 }
+
 
 .main-header__contactInfo__phone {
     background: #5F9535;
@@ -81,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 .main-header [class*="icon-"]:before {
     position: relative;
     top: 2px;
@@ -93,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     z-index: 2000;
     padding: 10px;
-    margin-bottom: 10px;
+    background-color: black;
 }
 
 .icon-menu {
@@ -112,8 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu {
     position: relative;
-    top: 60px;
-    left: 0;
+    text-align: center;
     width: 100%;
     background: rgba(0,0,0,.85);
     padding: 0;
@@ -121,12 +123,13 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
     height: 0;
     overflow: hidden;
-    transition: .5s linear;
+    transition: .3s linear;
 }
 
 .menu__link {
     display: block;
     padding: 10px;
+    margin: 1px;
     color: white;
     text-decoration: none;
     margin-right: 3px;
@@ -137,29 +140,31 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
+    border-radius: 3px;
 }
 
 .menu__link--select {
     background: #5F9535;
+    border-radius: 3px;
 }
 
 .mostrar {
-    height: 196px;
+    height: 212px;
 }
 
 /*------------------Estilos del Banner------------------*/
 
+/*
 .banner {
     margin-top: -55px;
     position: relative;
 }
 
 .banner__img {
-    width: 85%;
-    height: 85%;
-    margin: auto;
+    margin: 0 auto;
     object-fit: cover;
 }
+*/
 
 /*------------------Estilos Principales------------------*/
 
@@ -177,6 +182,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico', cursive;
     font-weight: 100;
 }
+
 
 .main__about__description .column:nth-child(2) {
     padding: 10px;
@@ -212,6 +218,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
     border: 3px solid #ddd;
     margin-left: auto;
+
 }
 
 .nuestro-enfoque .column--50-33{
@@ -234,7 +241,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*------------------Estilos del footer------------------*/
-
 .main-footer {
     background: #222;
     color: white;
@@ -243,31 +249,26 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 20px;
     font-size: .8em;
 }
-
-
 .column__title {
     font-size: 1em;
 }
-
 .copy {
     padding-top: 10px;
     border-top: #5F9535 solid 1px;
     text-align: center;
     margin: auto;
     margin-top: 5px;
+    font-size: .9em;
 }
-
 .main-footer [class*="icon-"] {
     color: white;
     text-decoration: none;;
 }
-
 .main-footer [class*="icon-"]:before {
     position: relative;
     top: 2px;
     right: 5px;
 }
-
 .main-footer p a:hover{
     color: #5F9535;
     -webkit-transition: all .3s;
@@ -277,14 +278,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /*------------------Estilos media query------------------*/
 
+
 @media screen and (min-width:480px) {
     .logo {
         color: #5F9535;
-        font-size: 1.6em;
+        font-size: 1.3em;
     }
 
     .main-header__contactInfo {
         text-align: right;
+    }
+
+    .main-header__contactInfo__phone,
+    .main-header__contactInfo__address {
+        font-size: .75em;
     }
 
     .main-header__contactInfo__phone {
@@ -294,7 +301,6 @@ h1, h2, h3, h4, h5, h6 {
 
     .main-header__contactInfo__address {
         color: #5F9535;
-
     }
 
     .main-nav {
@@ -303,7 +309,8 @@ h1, h2, h3, h4, h5, h6 {
 
     .banner {
         margin-top: -190px;
-        z-index: -1000;
+        width: 100%;
+        object-fit: cover;
     }
 
     .banner__img {
@@ -323,8 +330,19 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
     }
 
+    hr {
+        width: 80%;
+        color: #5F9535;
+        line-height: 1.2em;
+        margin-top: 10%;
+    }
+
     .nuestro-enfoque .container--flex {
         align-items: flex-start;
+    }
+
+    .nuestro-enfoque .column--50-33 {
+        margin: 10px auto;
     }
 
 
@@ -333,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .nuestro-enfoque .column {
-        border: 5px solid #ddd;
+        border: 3px solid #ddd;
     }
 
     .main-footer .container--flex {
@@ -358,6 +376,11 @@ h1, h2, h3, h4, h5, h6 {
 
     .main__about__description {
         margin-top: 30px;
+    }
+
+    .main-header__contactInfo__phone,
+    .main-header__contactInfo__address {
+        font-size: .95em;
     }
 
     .main__about__description .column--50:nth-child(2) {
@@ -406,10 +429,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .menu {
-        position: static;
+        width: 100%;
+        text-align: center;
         display: flex;
-        height: auto;
-        width: auto;
+        align-items: center;
+        justify-content: space-around;
+        height: 60px;
     }
 
     .group--color .container {

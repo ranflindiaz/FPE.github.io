@@ -129,13 +129,6 @@
         display: none;
     }
 
-    .menu {
-        position: static;
-        display: flex;
-        height: auto;
-        width: auto;
-    }
-
     .group--color .container {
         margin-top: 25px;
         margin-bottom: 25px;
