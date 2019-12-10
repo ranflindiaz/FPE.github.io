@@ -1,5 +1,7 @@
 .gallery__img {
+    width: 75%;
     object-fit: cover;
+    margin: auto;
     margin-bottom: 10px;
     cursor: pointer;
     transition: all 0.5s;
@@ -37,7 +39,7 @@
 }
 
 .modal__img {
-    width: 55%;
+    width: 88%;
 }
 
 .modal__boton{

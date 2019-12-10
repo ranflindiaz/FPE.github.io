@@ -20,6 +20,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     min-width: 405px;
+    background-color: #F7F7F7;
 }
 
 /*------------------Estilos base------------------*/
@@ -66,28 +67,6 @@ h1, h2, h3, h4, h5, h6 {
 .main-header a {
     text-decoration: none;
     color: #5F9535;
-}
-
-
-.main-header__contactInfo__phone {
-    background: #5F9535;
-    color: white;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.main-header__contactInfo__address {
-    color: #5F9535;
-    padding: 10px;
-    margin: 0;
-}
-
-
-
-.main-header [class*="icon-"]:before {
-    position: relative;
-    top: 2px;
-    right: 5px;
 }
 
 /*------------------Estilos del Menu------------------*/
@@ -178,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main__title {
     margin: 5px 0;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-family: 'Pacifico', cursive;
     font-weight: 100;
 }
@@ -252,6 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 .column__title {
     font-size: 1em;
 }
+
 .copy {
     padding-top: 10px;
     border-top: #5F9535 solid 1px;
@@ -371,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .main__title {
-        font-size: 2em;
+        font-size: 1.4em;
     }
 
     .main__about__description {
@@ -444,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .main__title {
-        font-size: 2.3em;
+        font-size: 1.5em;
     }
 
     .main__about__description .column--50:nth-child(2) .column_txt {
@@ -452,7 +432,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .column__title {
-        font-size:  1.5em;
+        font-size:  1em;
     }
 
     .nuestro-enfoque__title {

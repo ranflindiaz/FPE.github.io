@@ -1,6 +1,7 @@
 
 /*------------------Estilos Principales------------------*/
 
+
 .group--color .container {
     background: #e6e6e6;
     border: #5F9535 solid 1px;
@@ -30,20 +31,6 @@
     .logo {
         color: #5F9535;
         font-size: 1.4em;
-    }
-
-    .main-header__contactInfo {
-        text-align: right;
-    }
-
-    .main-header__contactInfo__phone {
-        background: none;
-        color: #5F9535;
-    }
-
-    .main-header__contactInfo__address {
-        color: #5F9535;
-
     }
 
     .main-nav {
@@ -114,11 +101,6 @@
     .logo {
         font-size: 2em;
         padding: 0;
-    }
-    .main-header__contactInfo__phone,
-    .main-header__contactInfo__address {
-        padding-right: 0;
-        font-size: 1.15em;
     }
 
     .main-nav {
