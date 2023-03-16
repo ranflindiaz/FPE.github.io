@@ -1,3 +1,7 @@
+main {
+    margin: 235px auto;
+}
+
 .contact-information {
     padding: 10px;
     padding-top: 0;
@@ -47,17 +51,14 @@
     border-radius: 5px;
 }
 
-
 .formulario__btn {
     border: none;
     cursor: pointer;
     font-size: 1em;
 }
 
-
-
-
 @media screen and (min-width:480px) {
+
     .contact .container--flex{
     align-items: flex-start
 }
@@ -73,6 +74,8 @@
 }
 
 @media screen and (min-width:768px) {
+
+
     .contact-information p {
         font-size: 1em;
     }

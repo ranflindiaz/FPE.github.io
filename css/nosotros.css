@@ -5,7 +5,6 @@
 .group--color .container {
     background: #e6e6e6;
     border: #5F9535 solid 1px;
-    padding: 9px;
     text-align: center;
     margin-top: 2px;
 }
@@ -19,6 +18,10 @@
 
 .column_txt {
     text-align: justify;
+}
+
+.main__about__description{
+    margin: 25% auto;
 }
 
 .main__about__description .column:nth-child(2) {
@@ -69,7 +72,8 @@
     }
 
     .main__about__description {
-        margin-top: 30px;
+        margin: 200px auto;
+        height: 30vh;
     }
 
     .main__about__description .column--50:nth-child(2) {

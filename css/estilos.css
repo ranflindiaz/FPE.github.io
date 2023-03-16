@@ -131,20 +131,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 212px;
 }
 
-/*------------------Estilos del Banner------------------*/
-
-/*
-.banner {
-    margin-top: -55px;
-    position: relative;
-}
-
-.banner__img {
-    margin: 0 auto;
-    object-fit: cover;
-}
-*/
-
 /*------------------Estilos Principales------------------*/
 
 .group--color .container {
@@ -223,9 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-footer {
     background: #222;
     color: white;
-    padding: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 45px 0px;
     font-size: .8em;
 }
 .column__title {
